@@ -1,0 +1,18 @@
+# Data and large research artifacts
+dataset/*
+!dataset/README.md
+related_work/*/paper.pdf
+related_work/*/source/
+experiment/*/checkpoints/
+experiment/*/*.pt
+experiment/*/*.ckpt
+experiment/*/wandb/
+
+# Local artifacts and secrets
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
